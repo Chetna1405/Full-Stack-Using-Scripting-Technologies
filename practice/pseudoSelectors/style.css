@@ -1,0 +1,56 @@
+p::first-line{
+    color-interpolation-filters:calc(255 ,255);
+    background-color: red;
+}
+p::first-letter{
+    color: aqua;
+}
+p::selection{
+    color: chartreuse;
+}
+/*       reduces time complexity */
+h2::after {
+    content: "  Chetna ";
+    color: #b05ae6ba;
+    /* border: 2px solid #2e3e4e; */
+}
+
+h2::before{
+    content: " Hello ! ";
+    color: darkmagenta;
+}
+
+
+/* .parent{
+    height: auto;
+    width: auto;
+
+
+
+    Reelative Units
+    vh
+    vw 
+    %  wrt parent
+    em wrt parent
+    1 rem = 16px  on root element
+    fr wrt body
+
+
+
+
+} */
+
+
+.container{
+    border: 3px solid darkmagenta;
+    height: 50vh;
+    width: 50vw;
+    font-size: 3px;
+}
+.child{
+    
+    border: 3px solid blue;
+    height: 50%;
+    width: 50%;
+    font-size:3em;
+}

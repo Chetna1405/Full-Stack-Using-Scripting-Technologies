@@ -1,0 +1,38 @@
+.main{
+    border: 2px solid red;
+    height: 200vh;
+    width: 90vh;
+}
+.container{
+    border: 2px solid green;
+    height: 70%;
+    width: 70%;
+    margin: 30px;
+    position: relative;
+}
+.item{
+    border: 2px solid orange;
+    width: 100px;
+    height: 100px;
+}
+#i1{
+    
+    position: absolute;           /* //empties the space */
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+#i3{
+    position: fixed;
+    /* top: 200px; */
+
+    left:300px;
+}
+#i2{
+    position: absolute;
+    left:150px;
+}
+#i1{
+    position: sticky;
+    bottom: 200px;
+}

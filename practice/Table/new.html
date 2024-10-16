@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        /* Descendent selector */
+        div p{
+            background-color: rgb(220, 228, 165);
+        }
+
+        /* Adjacent child --> child of parent not to the grand child */
+        div>p{
+            background-color: rgb(71, 224, 230);
+        }
+
+        /* Adjacent sibling */
+        div+p{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Chetna</p>
+        <section>
+            <p>Chetna</p>
+        </section>
+        
+        <p>Chetna</p>
+    </div>
+
+    <p>Chetna</p>
+    
+</body>
+</html>

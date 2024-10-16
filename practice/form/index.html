@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="./resume.html" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name : </label>
+            <input type="text" placeholder="Enter name" id="name" name="name"><br><br>
+
+            <label for="age">Age : </label>
+            <input type="number" placeholder="Enter age" id="age" name="age"><br><br>
+            
+            <label for="gender">Gender : </label>
+             
+            <input type="radio" name="gender">Male</input><br>
+            <input type="radio" name="gender">female</input><br>
+            <input type="radio" name="gender">Other</input><br>
+
+            <label for="email">Email Id : </label>
+            <input type="email" placeholder="Enter email" id="email" name="email"><br><br>
+
+            <label for="password">Password : </label>
+            <input type="password" placeholder="Enter password" id="password" name="password"><br>
+
+            <label for="file">File : </label>
+            <input type="file" placeholder="Upload file" id="file"><br>
+
+            <label for="dob">D.O.B. : </label>
+            <input type="date" placeholder="Enter date" id="dob"><br>
+
+
+            <label for="movies">Movies : </label>
+            <select name="movie" id="movies">
+                <option value="" disabled selected style="background-color: aqua;">Select your favourite Movie</option>
+                <option value="KGF" >KGF</option>
+                <option value="RRR" >RRR</option>
+                <option value="Stree2" >Stree2</option>
+            </select>
+            <br>
+            <button type="submit">Submit</button>
+            <br>
+            <br>
+            <button type="reset">Reset</button>
+        </fieldset>
+        
+
+    </form>
+</body>
+</html>

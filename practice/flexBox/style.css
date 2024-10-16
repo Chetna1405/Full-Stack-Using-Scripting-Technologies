@@ -1,0 +1,41 @@
+.container{
+    border: 2px solid red;
+    height: 100vh;
+    background-size: auto;
+    display: flex;
+    flex-direction: ROW;
+    /* justify-content:space-evenly;
+    align-items:center; */
+    /* flex-wrap: wrap; */
+}
+
+.item{
+    border: 2px solid green;
+    /* height: 100px;
+    width: 100px; */
+}
+
+
+
+/* FLEXBOX CHILD PROPERTIES */
+#i1{
+     order: 1; /*by default order is 0 */
+     /* flex-grow: 100; THIS ITEM WILL OCCUPY ALL THE EMPTY SPACE IN HORIZONTAL LINE */
+
+     /* flex-shrink: 2;    by DEFAULT VALUEE IS 1 CONTROLS THE RATE OF SHRINKING WHILE CHANGING THE SIZE AT INSPECT */
+    /* flex-basis: 4000px; GROW ALONG MAIN AXIS ,,, BUT OVERFLOWS IF NO SPACE IS AVAILABLE */
+    }
+#i2{
+    /* flex-grow: 3; */
+}
+#i3{
+    
+}
+#i4{
+    order: 2;
+}
+/* .H2{
+    text-decoration: dotted;
+} */
+
+
