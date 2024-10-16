@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    background: rgb(224, 221, 221);
+    width: 100vw;
+
+}
+.nav-bar{
+    
+    display: flex;
+    margin-left: 450px;
+    align-items: center;
+    justify-items: space-evenly;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid black; */
+}
+.nav{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    margin-right: 30px;
+}
+h1{ 
+    padding: 20px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+._1st{
+    background:url(http://www.baltana.com/files/wallpapers-2/Bubbles-Desktop-Wallpaper-04101.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 320px;
+}
+.buttons{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.b1{
+    height: 40px;
+    width: 100px;
+    /* border: 2px solid black; */
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        background: rgb(245, 201, 6);
+        
+    
+}
+
+.b2{
+    height: 40px;
+        width: 100px;
+        border-radius: 30px;
+        /* border: 2px solid black; */
+        margin-left: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(245, 201, 6);
+    }
+
+    a:hover{
+        background: white;
+    }
+
+
+._2nd,._3rd{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.p1{
+    width: 250px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+
+.image{
+    background: url(https://tse2.mm.bing.net/th?id=OIP.eByJ9C5AcAQX356ClLJgwAHaGN&pid=Api&P=0&h=180);
+    height: 450px;
+    width: 250px;
+    /* border: 2px solid black; */
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+._3rd {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.3tB3k3maDNeR9OUsEiljRgHaE8&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+
+.form{
+    height: 600px;
+    width: 100%;
+
+}
+
+.formpage{
+    width: 300px;
+        height: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 200px;
+        margin-top: 200px;
+}
